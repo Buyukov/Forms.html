@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Forms</title>
+   </head>
+
+<body>
+
+<!-- FIRST NAME LAST NAME END SURNAME -->
+<form>
+	<label for="first_name">First Name:</label>
+	<input type="text" id="first_name" name="first_name" placeholder="Dilmurod" autofocus>
+
+	<br><br>
+
+	<label for="last_name">Last name:</label>
+	<input type="text" id="Last_name" name="last_name" placeholder="Dilmurod">
+
+	<br><br>
+
+	<label  for="Surname">Surname:</label>
+	<input type="text" id="Surname" name="Surname" placeholder="Surname">
+
+	<br><br>
+
+<!-- MR,MRS,MISS,PHD SELECT BUTTON -->
+	<lable for="title">Mr:</lable>
+	<input type="radio" value="Mr." id="Mr." name="title">
+
+	<lable for="title">Mrs:</lable>
+	<input type="radio" value="Mrs." id="Mrs." name="title">
+
+	<label for="title">Miss:</label>
+	<input type="radio" value="Miss." id="Miss." name="title">
+
+	<label for="title">PHD</label>
+	<input type="radio" value="PHD." id="PHD."name="title">
+
+	<br><br>
+
+	<!-- Paytment -->
+<label for="payment">Payment</label>
+  <select id="payment">
+     <option value="Visa">Vise</option>
+     <option value="Mastercard">Mastercard</option>
+     <option value="Giftcard">Giftcard</option>
+     <option value="Humo">Humo</option>
+     <option value="Uzcard">Uzcard</option>
+  </select>
+
+    <br><br>
+
+<!-- Email -->
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="Write Your Email Adress">
+
+    <br><br>
+
+    <!-- Form for bithday -->
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday">
+
+    <br><br>
+
+<!-- Quantity Miqdor -->
+<label for="quantity">Quantity:</label>
+<input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+
+    <br><br>
+
+<!-- Phone Number -->
+<label for="Phone">Phone#:</label>
+<input type="tel" id="phone" name="phone">
+
+    <br><br>
+
+<!--  Password -->
+<label for="pass">Password</label>
+<input type="Password" id="pass" name="pass" maxlength="12">Max 12 Characters!
+
+    <br><br>
+
+<!-- Slider -->
+<label for="slider">Rate us</label>
+1<input type="range" step="25" value="50">5
+
+    <br><br>
+
+<!-- Subscribe -->
+<label for="subscribe">Subscribe</label>
+<input type="checkbox" id="Subscribe" name="Subscribe">
+
+    <br><br>
+
+<!-- Upload a file -->
+<label for="myfile">Upload a file:</label>
+<input type="file" id="myfile" name="myfile" accept=".png">
+
+    <br><br>
+
+<!-- THESE BUTTONS CAN HALP RESET AND SUBMIT -->
+	<input type="Reset">
+
+	<input type="submit">
+
+
+</form>
+
+
+</body>
+
+</html>
